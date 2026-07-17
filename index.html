@@ -1,1 +1,1853 @@
 
+
+
+New Chat Ctrl K Plugins Scheduled Tasks Collapse Kimi Work Kimi Code Kimi Claw Chats All Chats Cambiar a rose gold Shared attachments Depiladora IPL Pro Galería hover sin lupa Error Liquid Liquid to HTML conversion Flotación premium sin emojis Liquid personali
+
+pasted
+
+
+Architected systematic approach to CSS and HTML components
+Architected systematic approach to CSS and HTML components
+Ahora agrego el marcado del header y el hero:
+
+
+Add header and hero markup
+Add header and hero markup
+Ahora la barra de confianza y beneficios (CSS + HTML):
+
+
+Add trust bar and benefits section
+Add trust bar and benefits section
+Ahora tecnología IPL y cómo funciona (timeline):
+
+
+Add IPL technology and how-it-works sections
+Add IPL technology and how-it-works sections
+Ahora antes/después, resultados (timeline de semanas), y cómo usar:
+
+
+Add before/after and results timeline sections
+Add before/after and results timeline sections
+Ahora "cómo usar" y especificaciones (tabla premium):
+
+
+Add how-to-use and specifications sections
+Add how-to-use and specifications sections
+Ahora opiniones (reviews), FAQ (accordion), garantía y compra segura:
+
+
+Add reviews, FAQ, guarantee, and secure purchase sections
+Add reviews, FAQ, guarantee, and secure purchase sections
+Ahora CTA final, footer, y todo el JavaScript:
+
+
+Add final CTA, footer, and back-to-top button
+Add final CTA, footer, and back-to-top button
+Ahora agrego el JavaScript (menú móvil, header on scroll, scroll reveal, accordion FAQ, back to top):
+
+
+Add all JavaScript functionality
+Add all JavaScript functionality
+Verifico que el HTML sea válido y que no haya problemas de estructura (tags balanceados, CSS válido):
+
+
+Sanity check tag balance
+Sanity check tag balance
+Todo balanceado. Copio a la carpeta de salida y lo presento.
+
+
+Ejecutó un comando, archivo leído
+Ejecutó un comando, archivo leído
+Listo — un único index.html con las 15 secciones que pediste (hero, barra de confianza, beneficios, tecnología IPL, cómo funciona, antes/después, timeline de resultados, cómo usar, especificaciones, opiniones, FAQ, garantía, compra segura, CTA final y footer), todo en HTML+CSS+JS puro, sin frameworks, con tu paleta rosa, tipografía Poppins, curvas por todos lados, y animaciones de scroll reveal, hover, shine, gradientes y accordion.
+
+Algunas notas rápidas:
+
+Todas las imágenes son placeholders de placehold.co, listos para reemplazar.
+Los datos técnicos (30W, 100-240V, 470-1100nm, 5 niveles, cronograma de semanas 1-6 + mantenimiento) están integrados en las secciones de tecnología, especificaciones y resultados.
+Es completamente responsive (desktop/tablet/mobile) y respeta prefers-reduced-motion.
+
+Index
+Código · HTML 
+la pagina es sweetcherry.store, https://sweetcherry.store/products/depiladora-laser-ipl-permanente es ahi donde lo voy a publicar , el hero no lo vamos a usar asi que lo sacamos el resto me encanto, los botones de comprar tienen que ir hacia arriba y automaticamente hacer click en un boton de compra que es el de app releasit cod de shopify ,, nose que necesitamos porque lo quiero para que sea editable desde el editor de shopify que hacemos liquid css...
+
+
+Architected editable Shopify Liquid section con botones interactivos
+Architected editable Shopify Liquid section con botones interactivos
+Perfecto, vamos a convertirlo en una sección de Shopify (Liquid) completamente editable desde el editor de temas, sacamos el hero, y hacemos que los botones de compra hagan scroll hacia arriba y disparen el botón de Releasit COD Form automáticamente.
+
+Antes de escribir el código, tengo una duda clave:
+
+P: Para el botón de Releasit COD Form: ¿ya sabés el selector CSS/ID exacto del botón de compra de Releasit en tu tema, o preferís que deje un campo configurable en el editor de Shopify para que lo completes vos (recomendado, ya que varía según el tema)?
+R: Dejalo configurable desde el editor (no sé el selector exacto)
+
+P: ¿Dónde vive el formulario/botón de Releasit? ¿Arriba de esta sección en la misma página de producto (scroll hacia arriba) o en otro lugar?
+R: Arriba, en la sección del producto (scroll hacia arriba)
+
+Mostrar más
+
+Orchestrated interfaz configurable para selector dinámico de botón
+Orchestrated interfaz configurable para selector dinámico de botón
+Ahora agrego la barra de confianza y beneficios, ambos con bloques editables:
+
+
+Add trust bar and benefits section with editable blocks
+Add trust bar and benefits section with editable blocks
+Ahora tecnología IPL y "cómo funciona":
+
+
+Add IPL technology and how-it-works sections
+Add IPL technology and how-it-works sections
+Ahora antes/después y resultados (timeline):
+
+
+Add before/after and results timeline sections
+Add before/after and results timeline sections
+Ahora "cómo usar" y especificaciones:
+
+
+Add how-to-use and specifications sections
+Add how-to-use and specifications sections
+Ahora opiniones, FAQ, garantía y compra segura:
+
+
+Finalizó estructura HTML con botón configurable y footer personalizable
+Finalizó estructura HTML con botón configurable y footer personalizable
+Ahora el CTA final, footer, cierre del wrapper, JavaScript y el schema completo:
+
+
+Configuró selector CSS personalizable y ubicación del formulario
+Configuró selector CSS personalizable y ubicación del formulario
+
+
+ 
+
+
+
+Claude es IA y puede cometer errores. Por favor, verifica nuevamente las respuestas.
+
+
+Index · HTML
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumina IPL — Depilación IPL Profesional en Casa | 5 Niveles de Intensidad</title>
+<meta name="description" content="Lumina IPL combina tecnología de luz pulsada intensa con cabezal de cuarzo y 5 niveles de intensidad ajustables para una depilación suave, segura y duradera desde tu hogar.">
+<meta name="keywords" content="IPL, depilación, luz pulsada, depiladora, belleza, cuidado personal">
+<meta property="og:title" content="Lumina IPL — Depilación Profesional en Casa">
+<meta property="og:description" content="Piel lista para brillar. Tecnología IPL de nivel salón, diseñada para tu piel.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+/* ============================================
+   LUMINA IPL — DISEÑO PREMIUM
+   Sistema de diseño: rosa suave, curvas, aire
+   ============================================ */
+ 
+:root{
+  --primary:#FF4F87;
+  --primary-dark:#E8386F;
+  --secondary:#FF7BA6;
+  --bg:#FFFFFF;
+  --section-bg:#FFF5F8;
+  --text:#111111;
+  --text-secondary:#666666;
+  --border:#F2DCE6;
+  --white:#FFFFFF;
+  --gold:#F4C542;
+ 
+  --radius-sm:16px;
+  --radius-md:28px;
+  --radius-lg:48px;
+  --radius-full:999px;
+ 
+  --shadow-soft:0 20px 60px -20px rgba(255,79,135,0.25);
+  --shadow-card:0 10px 40px -15px rgba(17,17,17,0.08);
+  --shadow-hover:0 25px 70px -20px rgba(255,79,135,0.35);
+ 
+  --ease:cubic-bezier(.22,1,.36,1);
+  --ease-bounce:cubic-bezier(.34,1.56,.64,1);
+}
+ 
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+ 
+html{scroll-behavior:smooth;}
+ 
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important;scroll-behavior:auto !important;}
+}
+ 
+body{
+  font-family:'Poppins',sans-serif;
+  color:var(--text);
+  background:var(--bg);
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  line-height:1.6;
+}
+ 
+img{max-width:100%;display:block;}
+a{text-decoration:none;color:inherit;}
+ul{list-style:none;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+input,select{font-family:inherit;}
+ 
+.container{
+  max-width:1280px;
+  margin:0 auto;
+  padding:0 32px;
+}
+ 
+section{position:relative;}
+ 
+:focus-visible{
+  outline:3px solid var(--primary);
+  outline-offset:4px;
+  border-radius:8px;
+}
+ 
+/* ===== Utility: reveal on scroll ===== */
+.reveal{opacity:0;transform:translateY(40px);transition:opacity 0.9s var(--ease), transform 0.9s var(--ease);}
+.reveal.is-visible{opacity:1;transform:translateY(0);}
+ 
+.reveal-left{opacity:0;transform:translateX(-50px);transition:opacity 0.9s var(--ease), transform 0.9s var(--ease);}
+.reveal-left.is-visible{opacity:1;transform:translateX(0);}
+ 
+.reveal-right{opacity:0;transform:translateX(50px);transition:opacity 0.9s var(--ease), transform 0.9s var(--ease);}
+.reveal-right.is-visible{opacity:1;transform:translateX(0);}
+ 
+.reveal-zoom{opacity:0;transform:scale(0.85);transition:opacity 0.8s var(--ease), transform 0.8s var(--ease);}
+.reveal-zoom.is-visible{opacity:1;transform:scale(1);}
+ 
+.reveal-scale{opacity:0;transform:scale(0.92);transition:opacity 0.7s var(--ease), transform 0.7s var(--ease);}
+.reveal-scale.is-visible{opacity:1;transform:scale(1);}
+ 
+.stagger > *{transition-delay:calc(var(--i, 0) * 0.09s);}
+ 
+/* ===== Eyebrow / Section labels ===== */
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:13px;
+  font-weight:600;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--primary);
+  background:rgba(255,79,135,0.08);
+  padding:8px 18px;
+  border-radius:var(--radius-full);
+  margin-bottom:20px;
+}
+.eyebrow::before{
+  content:'';
+  width:6px;height:6px;
+  border-radius:50%;
+  background:var(--primary);
+}
+ 
+.section-head{
+  max-width:640px;
+  margin:0 auto 64px;
+  text-align:center;
+}
+.section-head h2{
+  font-size:clamp(32px,4.2vw,48px);
+  font-weight:700;
+  letter-spacing:-0.02em;
+  line-height:1.15;
+  margin-bottom:18px;
+}
+.section-head p{
+  color:var(--text-secondary);
+  font-size:17px;
+  line-height:1.7;
+}
+.section-pad{padding:120px 0;}
+@media(max-width:768px){.section-pad{padding:80px 0;}}
+ 
+/* ===== Buttons ===== */
+.btn{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  padding:19px 42px;
+  border-radius:var(--radius-full);
+  font-weight:600;
+  font-size:16px;
+  overflow:hidden;
+  transition:transform 0.4s var(--ease), box-shadow 0.4s var(--ease);
+  white-space:nowrap;
+}
+.btn-primary{
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  background-size:200% 200%;
+  color:#fff;
+  box-shadow:var(--shadow-soft);
+  animation:gradientShift 6s ease infinite;
+}
+.btn-primary:hover{
+  transform:translateY(-4px) scale(1.03);
+  box-shadow:var(--shadow-hover);
+}
+.btn-primary::after{
+  content:'';
+  position:absolute;
+  top:0;left:-75%;
+  width:50%;height:100%;
+  background:linear-gradient(120deg,transparent,rgba(255,255,255,0.55),transparent);
+  transform:skewX(-20deg);
+  transition:left 0.9s ease;
+}
+.btn-primary:hover::after{left:130%;}
+ 
+.btn-outline{
+  background:transparent;
+  border:2px solid var(--border);
+  color:var(--text);
+}
+.btn-outline:hover{
+  border-color:var(--primary);
+  color:var(--primary);
+  transform:translateY(-2px);
+}
+ 
+@keyframes gradientShift{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+ 
+/* ===== Floating shapes / ambient ===== */
+.blob{
+  position:absolute;
+  border-radius:50%;
+  filter:blur(60px);
+  opacity:0.5;
+  pointer-events:none;
+  z-index:0;
+}
+@keyframes floatY{
+  0%,100%{transform:translateY(0) translateX(0);}
+  50%{transform:translateY(-24px) translateX(12px);}
+}
+@keyframes floatSlow{
+  0%,100%{transform:translateY(0) rotate(0deg);}
+  50%{transform:translateY(-18px) rotate(4deg);}
+}
+</style>
+</head>
+<body>
+<style>
+/* ===== Header ===== */
+.site-header{
+  position:fixed;
+  top:0;left:0;right:0;
+  z-index:1000;
+  padding:20px 0;
+  transition:background 0.4s var(--ease), box-shadow 0.4s var(--ease), padding 0.4s var(--ease);
+}
+.site-header.scrolled{
+  background:rgba(255,255,255,0.85);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  box-shadow:0 4px 30px rgba(17,17,17,0.06);
+  padding:14px 0;
+}
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.logo{
+  font-size:22px;
+  font-weight:800;
+  letter-spacing:-0.02em;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.logo span{color:var(--primary);}
+.nav-links{
+  display:flex;
+  gap:40px;
+  font-weight:500;
+  font-size:15px;
+}
+.nav-links a{
+  position:relative;
+  padding:4px 0;
+  color:var(--text);
+  transition:color 0.3s;
+}
+.nav-links a::after{
+  content:'';
+  position:absolute;
+  left:0;bottom:-2px;
+  width:0;height:2px;
+  background:var(--primary);
+  transition:width 0.35s var(--ease);
+}
+.nav-links a:hover{color:var(--primary);}
+.nav-links a:hover::after{width:100%;}
+.header-cta{display:flex;align-items:center;gap:20px;}
+.header-cta .btn{padding:13px 28px;font-size:14px;}
+.nav-toggle{display:none;width:44px;height:44px;border-radius:50%;background:var(--section-bg);align-items:center;justify-content:center;flex-direction:column;gap:5px;}
+.nav-toggle span{width:20px;height:2px;background:var(--text);border-radius:2px;transition:all 0.3s var(--ease);}
+.nav-toggle.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.nav-toggle.open span:nth-child(2){opacity:0;}
+.nav-toggle.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+ 
+@media(max-width:900px){
+  .nav-links{
+    position:fixed;
+    top:0;right:0;
+    height:100vh;
+    width:min(320px,80vw);
+    background:#fff;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    padding:40px;
+    gap:28px;
+    box-shadow:-10px 0 40px rgba(0,0,0,0.08);
+    transform:translateX(100%);
+    transition:transform 0.5s var(--ease);
+    z-index:1001;
+  }
+  .nav-links.open{transform:translateX(0);}
+  .header-cta .btn-outline{display:none;}
+  .nav-toggle{display:flex;}
+}
+ 
+/* ===== Hero ===== */
+.hero{
+  padding:180px 0 100px;
+  overflow:hidden;
+  background:linear-gradient(180deg,#FFFDFD 0%, var(--section-bg) 100%);
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:60px;
+  align-items:center;
+  position:relative;
+  z-index:1;
+}
+.hero-copy h1{
+  font-size:clamp(38px,5.2vw,64px);
+  font-weight:800;
+  line-height:1.08;
+  letter-spacing:-0.03em;
+  margin-bottom:24px;
+}
+.hero-copy h1 em{
+  font-style:normal;
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+.hero-copy p.lead{
+  font-size:19px;
+  color:var(--text-secondary);
+  max-width:480px;
+  margin-bottom:36px;
+}
+.hero-benefits{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  margin-bottom:40px;
+}
+.hero-benefits li{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:14px;
+  font-weight:500;
+  background:#fff;
+  border:1px solid var(--border);
+  padding:10px 16px;
+  border-radius:var(--radius-full);
+  box-shadow:0 6px 20px -8px rgba(17,17,17,0.06);
+}
+.hero-benefits svg{width:16px;height:16px;flex-shrink:0;color:var(--primary);}
+.hero-cta-row{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-bottom:36px;}
+.hero-trust-mini{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--text-secondary);}
+.stars-mini{color:var(--gold);font-size:15px;letter-spacing:2px;}
+.hero-guarantee{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-size:13px;
+  color:var(--text-secondary);
+}
+.hero-guarantee svg{width:20px;height:20px;color:var(--primary);flex-shrink:0;}
+ 
+.hero-visual{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.hero-visual .blob{
+  width:420px;height:420px;
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  top:50%;left:50%;
+  transform:translate(-50%,-50%);
+  animation:floatSlow 8s ease-in-out infinite;
+}
+.hero-image-wrap{
+  position:relative;
+  z-index:2;
+  border-radius:var(--radius-lg);
+  overflow:hidden;
+  box-shadow:0 40px 90px -30px rgba(255,79,135,0.4);
+  animation:floatY 6s ease-in-out infinite;
+}
+.hero-image-wrap img{width:100%;height:auto;}
+.floating-badge{
+  position:absolute;
+  background:#fff;
+  border-radius:var(--radius-md);
+  padding:16px 20px;
+  box-shadow:var(--shadow-card);
+  display:flex;
+  align-items:center;
+  gap:12px;
+  z-index:3;
+  animation:floatY 5s ease-in-out infinite;
+}
+.floating-badge.b1{top:8%;left:-8%;animation-delay:0.3s;}
+.floating-badge.b2{bottom:10%;right:-8%;animation-delay:0.8s;}
+.floating-badge .icon-circle{
+  width:40px;height:40px;
+  border-radius:50%;
+  background:var(--section-bg);
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+}
+.floating-badge .icon-circle svg{width:20px;height:20px;color:var(--primary);}
+.floating-badge strong{display:block;font-size:15px;font-weight:700;}
+.floating-badge span{font-size:12px;color:var(--text-secondary);}
+ 
+@media(max-width:900px){
+  .hero{padding:140px 0 60px;}
+  .hero-grid{grid-template-columns:1fr;gap:56px;}
+  .hero-copy{text-align:center;order:1;}
+  .hero-copy p.lead{margin-left:auto;margin-right:auto;}
+  .hero-benefits{justify-content:center;}
+  .hero-cta-row{justify-content:center;}
+  .hero-guarantee{justify-content:center;}
+  .hero-visual{order:2;max-width:400px;margin:0 auto;}
+  .floating-badge{padding:12px 14px;}
+  .floating-badge strong{font-size:13px;}
+  .floating-badge.b1{left:-4%;}
+  .floating-badge.b2{right:-4%;}
+}
+</style>
+ 
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#" class="logo" aria-label="Lumina IPL — Inicio">Lumina<span>IPL</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+      <a href="#beneficios">Beneficios</a>
+      <a href="#tecnologia">Tecnología</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#faq">Preguntas</a>
+    </nav>
+    <div class="header-cta">
+      <a href="#comprar" class="btn btn-outline">Iniciar sesión</a>
+      <a href="#comprar" class="btn btn-primary">Comprar ahora</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+ 
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy reveal-left">
+      <p class="eyebrow">Tecnología IPL de nivel salón</p>
+      <h1>Piel lista para <em>brillar</em>, semana tras semana</h1>
+      <p class="lead">Lumina IPL reduce el vello de forma suave e indolora con 5 niveles de intensidad ajustables, cabezal de cuarzo y protección ocular integrada — pensada para cada tipo de piel.</p>
+      <ul class="hero-benefits">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>5 niveles de intensidad</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>Indolora y silenciosa</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>Uso mundial 100–240V</li>
+      </ul>
+      <div class="hero-cta-row">
+        <a href="#comprar" class="btn btn-primary">Comprar Lumina IPL</a>
+        <div class="hero-trust-mini">
+          <span class="stars-mini">★★★★★</span>
+          <span>+12,400 clientas satisfechas</span>
+        </div>
+      </div>
+      <div class="hero-guarantee">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg>
+        Garantía de 30 días · Pago 100% seguro · Envío asegurado
+      </div>
+    </div>
+    <div class="hero-visual reveal-right">
+      <div class="blob" aria-hidden="true"></div>
+      <div class="hero-image-wrap">
+        <img src="https://placehold.co/800x800/FFF5F8/FF4F87?text=Lumina+IPL" alt="Dispositivo de depilación IPL Lumina sobre fondo rosa suave" width="800" height="800" loading="eager">
+      </div>
+      <div class="floating-badge b1">
+        <div class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg></div>
+        <div><strong>470–1100nm</strong><span>Rango de longitud de onda</span></div>
+      </div>
+      <div class="floating-badge b2">
+        <div class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M5 9l7-7 7 7"/></svg></div>
+        <div><strong>-92%</strong><span>Vello en 8 semanas*</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<style>
+/* ===== Trust bar ===== */
+.trust-bar{
+  background:#fff;
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  padding:36px 0;
+}
+.trust-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
+}
+.trust-item{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  justify-content:center;
+}
+.trust-item .icon-circle{
+  width:46px;height:46px;
+  border-radius:50%;
+  background:var(--section-bg);
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+  transition:transform 0.4s var(--ease-bounce), background 0.4s;
+}
+.trust-item:hover .icon-circle{transform:scale(1.12) rotate(-6deg);background:var(--primary);}
+.trust-item:hover .icon-circle svg{color:#fff;}
+.trust-item svg{width:22px;height:22px;color:var(--primary);transition:color 0.4s;}
+.trust-item strong{display:block;font-size:14.5px;font-weight:600;}
+.trust-item span{font-size:12.5px;color:var(--text-secondary);}
+ 
+@media(max-width:900px){
+  .trust-grid{grid-template-columns:repeat(2,1fr);}
+}
+ 
+/* ===== Benefits ===== */
+.benefits-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+}
+.benefit-card{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--radius-md);
+  padding:40px 32px;
+  transition:transform 0.5s var(--ease), box-shadow 0.5s var(--ease), border-color 0.5s;
+  position:relative;
+  overflow:hidden;
+}
+.benefit-card::before{
+  content:'';
+  position:absolute;
+  top:0;left:0;right:0;
+  height:4px;
+  background:linear-gradient(90deg,var(--primary),var(--secondary));
+  transform:scaleX(0);
+  transform-origin:left;
+  transition:transform 0.5s var(--ease);
+}
+.benefit-card:hover{
+  transform:translateY(-10px);
+  box-shadow:var(--shadow-hover);
+  border-color:transparent;
+}
+.benefit-card:hover::before{transform:scaleX(1);}
+.benefit-icon{
+  width:64px;height:64px;
+  border-radius:20px;
+  background:linear-gradient(135deg,rgba(255,79,135,0.12),rgba(255,123,166,0.12));
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:24px;
+  transition:transform 0.5s var(--ease-bounce);
+}
+.benefit-card:hover .benefit-icon{transform:rotate(-8deg) scale(1.08);}
+.benefit-icon svg{width:30px;height:30px;color:var(--primary);}
+.benefit-card h3{font-size:20px;font-weight:700;margin-bottom:12px;}
+.benefit-card p{font-size:15px;color:var(--text-secondary);line-height:1.7;}
+ 
+@media(max-width:900px){
+  .benefits-grid{grid-template-columns:1fr;}
+}
+</style>
+ 
+<!-- ============ TRUST BAR ============ -->
+<section class="trust-bar" aria-label="Garantías de confianza">
+  <div class="container trust-grid stagger">
+    <div class="trust-item reveal" style="--i:0">
+      <div class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="7" width="15" height="12" rx="2"/><path d="M16 10h3l3 4v5h-6"/><circle cx="6" cy="19" r="2"/><circle cx="17.5" cy="19" r="2"/></svg></div>
+      <div><strong>Envío asegurado</strong><span>A todo el país</span></div>
+    </div>
+    <div class="trust-item reveal" style="--i:1">
+      <div class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg></div>
+      <div><strong>Garantía 30 días</strong><span>Devolución sin líos</span></div>
+    </div>
+    <div class="trust-item reveal" style="--i:2">
+      <div class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18"/></svg></div>
+      <div><strong>Pago 100% seguro</strong><span>Encriptación SSL</span></div>
+    </div>
+    <div class="trust-item reveal" style="--i:3">
+      <div class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+      <div><strong>Soporte dedicado</strong><span>Respuesta en 24h</span></div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ BENEFICIOS ============ -->
+<section class="section-pad" id="beneficios">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Por qué elegir Lumina</p>
+      <h2>Resultados de clínica, comodidad de casa</h2>
+      <p>Cada detalle de Lumina IPL está diseñado para que la depilación se sienta segura, rápida y adaptada a tu piel.</p>
+    </div>
+    <div class="benefits-grid stagger">
+      <div class="benefit-card reveal-zoom" style="--i:0">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg></div>
+        <h3>5 niveles de intensidad</h3>
+        <p>Ajusta la potencia del flash según tu sensibilidad y tono de piel, desde el nivel más suave hasta el más intenso.</p>
+      </div>
+      <div class="benefit-card reveal-zoom" style="--i:1">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.5 5.5L20 10l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-1.5z"/></svg></div>
+        <h3>Cabezal de cuarzo</h3>
+        <p>Un cristal de cuarzo de alta pureza distribuye la luz de forma uniforme, cuidando la piel en cada aplicación.</p>
+      </div>
+      <div class="benefit-card reveal-zoom" style="--i:2">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3>Filtro UV integrado</h3>
+        <p>Bloquea la radiación ultravioleta del flash, dejando pasar solo la luz útil para el tratamiento.</p>
+      </div>
+      <div class="benefit-card reveal-zoom" style="--i:3">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/><path d="M3 3l18 18" stroke-linecap="round"/></svg></div>
+        <h3>Protección ocular</h3>
+        <p>Sensor de contacto continuo y diseño que resguarda la zona de los ojos durante cada disparo.</p>
+      </div>
+      <div class="benefit-card reveal-zoom" style="--i:4">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M7.8 4.2A9 9 0 1112 3c1.6 0 3.1.4 4.4 1.2"/></svg></div>
+        <h3>Solo actúa sobre la piel</h3>
+        <p>El sensor de contacto evita disparos accidentales: el flash solo se activa al tocar la piel correctamente.</p>
+      </div>
+      <div class="benefit-card reveal-zoom" style="--i:5">
+        <div class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="3"/><path d="M9 18h6"/></svg></div>
+        <h3>Voltaje universal</h3>
+        <p>Compatible con 100–240V para usarlo en cualquier país, con cable largo para mayor libertad de movimiento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<style>
+/* ===== Tecnología ===== */
+.tech-section{background:var(--section-bg);}
+.tech-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:64px;
+  align-items:center;
+}
+.tech-visual{position:relative;}
+.tech-visual img{
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-card);
+}
+.tech-visual .ring{
+  position:absolute;
+  border:2px dashed rgba(255,79,135,0.35);
+  border-radius:50%;
+  animation:spin 40s linear infinite;
+}
+.tech-visual .ring.r1{width:110%;height:110%;top:-5%;left:-5%;}
+.tech-visual .ring.r2{width:130%;height:130%;top:-15%;left:-15%;animation-direction:reverse;animation-duration:60s;}
+@keyframes spin{to{transform:rotate(360deg);}}
+ 
+.tech-copy h2{
+  font-size:clamp(30px,4vw,42px);
+  font-weight:700;
+  letter-spacing:-0.02em;
+  margin-bottom:20px;
+  line-height:1.15;
+}
+.tech-copy > p{color:var(--text-secondary);font-size:16.5px;margin-bottom:36px;max-width:520px;}
+.tech-specs-mini{display:flex;flex-direction:column;gap:22px;}
+.tech-spec-row{display:flex;gap:18px;align-items:flex-start;}
+.tech-spec-row .num{
+  font-size:14px;font-weight:700;color:var(--primary);
+  width:34px;height:34px;border-radius:50%;
+  background:#fff;border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+}
+.tech-spec-row h4{font-size:16px;font-weight:600;margin-bottom:4px;}
+.tech-spec-row p{font-size:14.5px;color:var(--text-secondary);}
+ 
+@media(max-width:900px){
+  .tech-grid{grid-template-columns:1fr;gap:48px;}
+}
+ 
+/* ===== Cómo funciona / Timeline ===== */
+.steps-grid{
+  position:relative;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:32px;
+}
+.steps-grid::before{
+  content:'';
+  position:absolute;
+  top:34px;left:12%;right:12%;
+  height:2px;
+  background:repeating-linear-gradient(90deg,var(--border) 0 10px, transparent 10px 20px);
+  z-index:0;
+}
+.step-card{
+  position:relative;
+  z-index:1;
+  text-align:center;
+}
+.step-num{
+  width:68px;height:68px;
+  border-radius:50%;
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  color:#fff;
+  font-size:22px;
+  font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 22px;
+  box-shadow:0 14px 30px -10px rgba(255,79,135,0.5);
+  transition:transform 0.4s var(--ease-bounce);
+}
+.step-card:hover .step-num{transform:scale(1.12) translateY(-4px);}
+.step-card h3{font-size:17px;font-weight:700;margin-bottom:10px;}
+.step-card p{font-size:14.5px;color:var(--text-secondary);}
+ 
+@media(max-width:900px){
+  .steps-grid{grid-template-columns:1fr;gap:40px;}
+  .steps-grid::before{display:none;}
+}
+</style>
+ 
+<!-- ============ TECNOLOGÍA IPL ============ -->
+<section class="section-pad tech-section" id="tecnologia">
+  <div class="container tech-grid">
+    <div class="tech-visual reveal-zoom">
+      <div class="ring r1" aria-hidden="true"></div>
+      <div class="ring r2" aria-hidden="true"></div>
+      <img src="https://placehold.co/700x700/FFFFFF/FF4F87?text=Tecnolog%C3%ADa+IPL" alt="Ilustración del cabezal de cuarzo emitiendo luz IPL" width="700" height="700" loading="lazy">
+    </div>
+    <div class="tech-copy reveal-right">
+      <p class="eyebrow">La ciencia detrás</p>
+      <h2>Tecnología IPL que trabaja con tu piel, no en su contra</h2>
+      <p>La luz pulsada intensa (IPL) emite energía lumínica que es absorbida por la melanina del folículo, debilitando su capacidad de producir vello con el uso constante y espaciado en el tiempo.</p>
+      <div class="tech-specs-mini stagger">
+        <div class="tech-spec-row reveal" style="--i:0">
+          <div class="num">1</div>
+          <div><h4>470–1100nm de longitud de onda</h4><p>Rango óptimo para actuar sobre distintos tipos de vello y tono de piel.</p></div>
+        </div>
+        <div class="tech-spec-row reveal" style="--i:1">
+          <div class="num">2</div>
+          <div><h4>30W de potencia</h4><p>Energía suficiente para un tratamiento eficaz sin sobrecalentar la piel.</p></div>
+        </div>
+        <div class="tech-spec-row reveal" style="--i:2">
+          <div class="num">3</div>
+          <div><h4>Material ABS de grado premium</h4><p>Carcasa resistente, ligera y segura al tacto durante todo el tratamiento.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ CÓMO FUNCIONA ============ -->
+<section class="section-pad" id="como-funciona">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Proceso simple</p>
+      <h2>De la caja a tu primera sesión en minutos</h2>
+      <p>Cuatro pasos sencillos separan tu piel del brillo suave que buscas.</p>
+    </div>
+    <div class="steps-grid stagger">
+      <div class="step-card reveal" style="--i:0">
+        <div class="step-num">1</div>
+        <h3>Afeita la zona</h3>
+        <p>Retira el vello visible con una afeitadora para que la luz llegue directo a la raíz.</p>
+      </div>
+      <div class="step-card reveal" style="--i:1">
+        <div class="step-num">2</div>
+        <h3>Limpia y seca</h3>
+        <p>Asegúrate de que la piel esté limpia, seca y libre de cremas o perfumes.</p>
+      </div>
+      <div class="step-card reveal" style="--i:2">
+        <div class="step-num">3</div>
+        <h3>Elige tu nivel</h3>
+        <p>Selecciona entre los 5 niveles de intensidad según tu sensibilidad y tono de piel.</p>
+      </div>
+      <div class="step-card reveal" style="--i:3">
+        <div class="step-num">4</div>
+        <h3>Aplica el flash</h3>
+        <p>Desliza el cabezal sobre la piel y aplica el flash en cada zona, sección por sección.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<style>
+/* ===== Antes y después ===== */
+.compare-section{background:var(--section-bg);}
+.compare-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+}
+.compare-card{
+  background:#fff;
+  border-radius:var(--radius-md);
+  overflow:hidden;
+  box-shadow:var(--shadow-card);
+  transition:transform 0.5s var(--ease);
+}
+.compare-card:hover{transform:translateY(-8px);}
+.compare-imgs{display:grid;grid-template-columns:1fr 1fr;position:relative;}
+.compare-imgs img{aspect-ratio:1;object-fit:cover;width:100%;}
+.compare-imgs .tag{
+  position:absolute;
+  top:12px;
+  font-size:11px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.06em;
+  padding:5px 12px;
+  border-radius:var(--radius-full);
+  background:rgba(17,17,17,0.55);
+  color:#fff;
+}
+.compare-imgs .tag.before{left:12px;}
+.compare-imgs .tag.after{right:12px;background:var(--primary);}
+.compare-info{padding:22px 24px;}
+.compare-info h4{font-size:16px;font-weight:700;margin-bottom:4px;}
+.compare-info span{font-size:13.5px;color:var(--text-secondary);}
+ 
+@media(max-width:900px){.compare-grid{grid-template-columns:1fr;}}
+ 
+/* ===== Resultados / Timeline vertical ===== */
+.results-timeline{
+  max-width:760px;
+  margin:0 auto;
+  position:relative;
+}
+.results-timeline::before{
+  content:'';
+  position:absolute;
+  left:29px;top:8px;bottom:8px;
+  width:2px;
+  background:var(--border);
+}
+.result-row{
+  position:relative;
+  display:flex;
+  gap:28px;
+  padding-bottom:44px;
+}
+.result-row:last-child{padding-bottom:0;}
+.result-dot{
+  width:60px;height:60px;
+  border-radius:50%;
+  background:#fff;
+  border:2px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700;
+  font-size:13px;
+  color:var(--primary);
+  flex-shrink:0;
+  z-index:1;
+  transition:background 0.4s, color 0.4s, border-color 0.4s, transform 0.4s var(--ease-bounce);
+}
+.result-row.is-visible .result-dot{
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  color:#fff;
+  border-color:transparent;
+  transform:scale(1.05);
+}
+.result-content{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+  padding:22px 26px;
+  flex:1;
+  box-shadow:var(--shadow-card);
+}
+.result-content h4{font-size:16.5px;font-weight:700;margin-bottom:6px;}
+.result-content p{font-size:14.5px;color:var(--text-secondary);}
+.result-bar-track{
+  margin-top:14px;
+  height:8px;
+  border-radius:var(--radius-full);
+  background:var(--section-bg);
+  overflow:hidden;
+}
+.result-bar-fill{
+  height:100%;
+  border-radius:var(--radius-full);
+  background:linear-gradient(90deg,var(--primary),var(--secondary));
+  width:0%;
+  transition:width 1.4s var(--ease) 0.2s;
+}
+.result-row.is-visible .result-bar-fill{width:var(--pct);}
+</style>
+ 
+<!-- ============ ANTES Y DESPUÉS ============ -->
+<section class="section-pad compare-section" id="antes-despues">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Resultados reales</p>
+      <h2>Antes y después: la diferencia habla sola</h2>
+      <p>Cada piel es distinta, pero la constancia con Lumina IPL marca un antes y un después visible.</p>
+    </div>
+    <div class="compare-grid stagger">
+      <div class="compare-card reveal-zoom" style="--i:0">
+        <div class="compare-imgs">
+          <span class="tag before">Antes</span>
+          <span class="tag after">Después</span>
+          <img src="https://placehold.co/300x300/F2DCE6/666666?text=Antes" alt="Piel antes del tratamiento en la zona de piernas">
+          <img src="https://placehold.co/300x300/FFF5F8/FF4F87?text=Despu%C3%A9s" alt="Piel después del tratamiento en la zona de piernas">
+        </div>
+        <div class="compare-info"><h4>Piernas</h4><span>8 semanas de tratamiento</span></div>
+      </div>
+      <div class="compare-card reveal-zoom" style="--i:1">
+        <div class="compare-imgs">
+          <span class="tag before">Antes</span>
+          <span class="tag after">Después</span>
+          <img src="https://placehold.co/300x300/F2DCE6/666666?text=Antes" alt="Piel antes del tratamiento en la zona de axilas">
+          <img src="https://placehold.co/300x300/FFF5F8/FF4F87?text=Despu%C3%A9s" alt="Piel después del tratamiento en la zona de axilas">
+        </div>
+        <div class="compare-info"><h4>Axilas</h4><span>6 semanas de tratamiento</span></div>
+      </div>
+      <div class="compare-card reveal-zoom" style="--i:2">
+        <div class="compare-imgs">
+          <span class="tag before">Antes</span>
+          <span class="tag after">Después</span>
+          <img src="https://placehold.co/300x300/F2DCE6/666666?text=Antes" alt="Piel antes del tratamiento en la zona de bikini">
+          <img src="https://placehold.co/300x300/FFF5F8/FF4F87?text=Despu%C3%A9s" alt="Piel después del tratamiento en la zona de bikini">
+        </div>
+        <div class="compare-info"><h4>Línea de bikini</h4><span>10 semanas de tratamiento</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ RESULTADOS / TIMELINE ============ -->
+<section class="section-pad" id="resultados">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Qué esperar</p>
+      <h2>Tu progreso, semana a semana</h2>
+      <p>La constancia es la clave: así evoluciona la piel con un uso regular de Lumina IPL.</p>
+    </div>
+    <div class="results-timeline">
+      <div class="result-row reveal" style="--pct:25%">
+        <div class="result-dot">S1-2</div>
+        <div class="result-content">
+          <h4>Semanas 1 y 2 — Inicio</h4>
+          <p>Sesiones cada dos semanas. El vello sigue creciendo con normalidad mientras el folículo comienza a debilitarse.</p>
+          <div class="result-bar-track"><div class="result-bar-fill"></div></div>
+        </div>
+      </div>
+      <div class="result-row reveal" style="--pct:55%">
+        <div class="result-dot">S3-4</div>
+        <div class="result-content">
+          <h4>Semanas 3 y 4 — Primeros cambios</h4>
+          <p>Continúa cada dos semanas. Muchas usuarias notan un crecimiento más lento y fino.</p>
+          <div class="result-bar-track"><div class="result-bar-fill"></div></div>
+        </div>
+      </div>
+      <div class="result-row reveal" style="--pct:80%">
+        <div class="result-dot">S5-6</div>
+        <div class="result-content">
+          <h4>Semanas 5 y 6 — Progreso visible</h4>
+          <p>Última fase intensiva cada dos semanas. La densidad del vello suele reducirse notablemente.</p>
+          <div class="result-bar-track"><div class="result-bar-fill"></div></div>
+        </div>
+      </div>
+      <div class="result-row reveal" style="--pct:100%">
+        <div class="result-dot">Mant.</div>
+        <div class="result-content">
+          <h4>Mantenimiento — Cada 4 semanas</h4>
+          <p>Una sesión mensual ayuda a conservar los resultados a largo plazo.</p>
+          <div class="result-bar-track"><div class="result-bar-fill"></div></div>
+        </div>
+      </div>
+    </div>
+    <p style="text-align:center;font-size:12.5px;color:var(--text-secondary);margin-top:28px;">*Los resultados varían según el tipo de piel y vello, y la constancia en el uso.</p>
+  </div>
+</section>
+ 
+<style>
+/* ===== Cómo usar ===== */
+.usage-section{background:var(--section-bg);}
+.usage-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:20px;
+}
+.usage-card{
+  background:#fff;
+  border-radius:var(--radius-md);
+  padding:30px 22px;
+  text-align:center;
+  box-shadow:var(--shadow-card);
+  transition:transform 0.45s var(--ease), box-shadow 0.45s var(--ease);
+}
+.usage-card:hover{transform:translateY(-8px) rotate(-1deg);box-shadow:var(--shadow-hover);}
+.usage-icon{
+  width:56px;height:56px;
+  border-radius:16px;
+  background:linear-gradient(135deg,rgba(255,79,135,0.1),rgba(255,123,166,0.1));
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 18px;
+}
+.usage-icon svg{width:26px;height:26px;color:var(--primary);}
+.usage-card h4{font-size:15px;font-weight:700;margin-bottom:8px;}
+.usage-card p{font-size:13px;color:var(--text-secondary);}
+.usage-card .usage-step-num{font-size:12px;font-weight:700;color:var(--secondary);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:8px;display:block;}
+ 
+@media(max-width:900px){.usage-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:560px){.usage-grid{grid-template-columns:1fr;}}
+ 
+/* ===== Especificaciones ===== */
+.specs-card{
+  max-width:900px;
+  margin:0 auto;
+  background:#fff;
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-card);
+  overflow:hidden;
+  border:1px solid var(--border);
+}
+.specs-row{
+  display:grid;
+  grid-template-columns:1fr 1.3fr;
+  border-bottom:1px solid var(--border);
+  transition:background 0.3s;
+}
+.specs-row:last-child{border-bottom:none;}
+.specs-row:hover{background:var(--section-bg);}
+.specs-row .spec-label{
+  padding:22px 32px;
+  font-weight:600;
+  font-size:14.5px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  background:var(--section-bg);
+}
+.specs-row .spec-label svg{width:18px;height:18px;color:var(--primary);flex-shrink:0;}
+.specs-row .spec-value{
+  padding:22px 32px;
+  font-size:14.5px;
+  color:var(--text-secondary);
+  display:flex;
+  align-items:center;
+}
+@media(max-width:700px){
+  .specs-row{grid-template-columns:1fr;}
+  .specs-row .spec-label{padding-bottom:8px;}
+  .specs-row .spec-value{padding-top:0;}
+}
+</style>
+ 
+<!-- ============ CÓMO USAR ============ -->
+<section class="section-pad usage-section" id="uso">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Guía rápida</p>
+      <h2>Cómo usar Lumina IPL</h2>
+      <p>Cinco pasos, un ritual de pocos minutos.</p>
+    </div>
+    <div class="usage-grid stagger">
+      <div class="usage-card reveal-zoom" style="--i:0">
+        <span class="usage-step-num">Paso 1</span>
+        <div class="usage-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 4L9 15l-4-4"/><path d="M14 9l6 6"/></svg></div>
+        <h4>Afeitar</h4>
+        <p>Retira el vello de la zona a tratar.</p>
+      </div>
+      <div class="usage-card reveal-zoom" style="--i:1">
+        <span class="usage-step-num">Paso 2</span>
+        <div class="usage-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2s6 6.5 6 11a6 6 0 01-12 0c0-4.5 6-11 6-11z"/></svg></div>
+        <h4>Limpiar</h4>
+        <p>Piel limpia, seca y sin residuos.</p>
+      </div>
+      <div class="usage-card reveal-zoom" style="--i:2">
+        <span class="usage-step-num">Paso 3</span>
+        <div class="usage-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="3"/><path d="M9 18h6"/></svg></div>
+        <h4>Encender</h4>
+        <p>Pulsa el botón de encendido del equipo.</p>
+      </div>
+      <div class="usage-card reveal-zoom" style="--i:3">
+        <span class="usage-step-num">Paso 4</span>
+        <div class="usage-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></div>
+        <h4>Elegir intensidad</h4>
+        <p>Selecciona uno de los 5 niveles disponibles.</p>
+      </div>
+      <div class="usage-card reveal-zoom" style="--i:4">
+        <span class="usage-step-num">Paso 5</span>
+        <div class="usage-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg></div>
+        <h4>Aplicar flash</h4>
+        <p>Desliza y aplica sobre la piel en contacto.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ ESPECIFICACIONES ============ -->
+<section class="section-pad" id="especificaciones">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Ficha técnica</p>
+      <h2>Especificaciones Lumina IPL</h2>
+      <p>Diseñado con precisión, hecho para durar.</p>
+    </div>
+    <div class="specs-card reveal-zoom">
+      <div class="specs-row">
+        <div class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>Tecnología</div>
+        <div class="spec-value">IPL — Luz Pulsada Intensa</div>
+      </div>
+      <div class="specs-row">
+        <div class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>Potencia</div>
+        <div class="spec-value">30W</div>
+      </div>
+      <div class="specs-row">
+        <div class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="3"/><path d="M9 18h6"/></svg>Voltaje</div>
+        <div class="spec-value">100–240V (universal, compatible mundialmente)</div>
+      </div>
+      <div class="specs-row">
+        <div class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3l1 5-4 2 6 11-1-6 4-2-6-10z"/></svg>Longitud de onda</div>
+        <div class="spec-value">470–1100nm</div>
+      </div>
+      <div class="specs-row">
+        <div class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.5 5.5L20 10l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-1.5z"/></svg>Niveles de intensidad</div>
+        <div class="spec-value">5 niveles ajustables</div>
+      </div>
+      <div class="specs-row">
+        <div class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 9h16"/></svg>Cabezal</div>
+        <div class="spec-value">Cristal de cuarzo con filtro UV</div>
+      </div>
+      <div class="specs-row">
+        <div class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Material</div>
+        <div class="spec-value">ABS de grado premium</div>
+      </div>
+      <div class="specs-row">
+        <div class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M4 6h16M4 18h16"/></svg>Cable</div>
+        <div class="spec-value">Cable largo para mayor libertad de movimiento</div>
+      </div>
+      <div class="specs-row">
+        <div class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>Seguridad</div>
+        <div class="spec-value">Sensor de contacto continuo + protección ocular</div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<style>
+/* ===== Opiniones ===== */
+.reviews-section{background:var(--section-bg);}
+.reviews-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:26px;
+}
+.review-card{
+  background:#fff;
+  border-radius:var(--radius-md);
+  padding:30px 28px;
+  box-shadow:var(--shadow-card);
+  transition:transform 0.5s var(--ease), box-shadow 0.5s var(--ease);
+}
+.review-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-hover);}
+.review-stars{color:var(--gold);font-size:15px;letter-spacing:3px;margin-bottom:16px;}
+.review-card p.quote{font-size:14.5px;color:var(--text);line-height:1.75;margin-bottom:22px;}
+.review-author{display:flex;align-items:center;gap:12px;}
+.review-author img{width:44px;height:44px;border-radius:50%;object-fit:cover;}
+.review-author strong{display:block;font-size:14px;font-weight:700;}
+.review-author span{font-size:12.5px;color:var(--text-secondary);}
+ 
+@media(max-width:900px){.reviews-grid{grid-template-columns:1fr;}}
+ 
+/* ===== FAQ Accordion ===== */
+.faq-list{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:14px;}
+.faq-item{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+  overflow:hidden;
+  transition:border-color 0.35s, box-shadow 0.35s;
+}
+.faq-item.open{border-color:var(--primary);box-shadow:var(--shadow-card);}
+.faq-question{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  padding:22px 26px;
+  text-align:left;
+  font-weight:600;
+  font-size:15.5px;
+}
+.faq-question .plus{
+  width:30px;height:30px;
+  border-radius:50%;
+  background:var(--section-bg);
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+  position:relative;
+  transition:background 0.35s, transform 0.4s var(--ease);
+}
+.faq-item.open .faq-question .plus{background:var(--primary);transform:rotate(135deg);}
+.faq-question .plus::before,.faq-question .plus::after{
+  content:'';
+  position:absolute;
+  background:var(--primary);
+  transition:background 0.35s;
+}
+.faq-question .plus::before{width:12px;height:2px;}
+.faq-question .plus::after{width:2px;height:12px;}
+.faq-item.open .faq-question .plus::before,.faq-item.open .faq-question .plus::after{background:#fff;}
+.faq-answer{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height 0.5s var(--ease);
+}
+.faq-answer-inner{padding:0 26px 24px;font-size:14.5px;color:var(--text-secondary);line-height:1.75;}
+ 
+/* ===== Garantía ===== */
+.guarantee-section{
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  overflow:hidden;
+  position:relative;
+}
+.guarantee-inner{
+  display:flex;
+  align-items:center;
+  gap:48px;
+  color:#fff;
+}
+.guarantee-badge{
+  width:160px;height:160px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.14);
+  border:2px solid rgba(255,255,255,0.4);
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+  animation:floatSlow 6s ease-in-out infinite;
+}
+.guarantee-badge svg{width:76px;height:76px;color:#fff;}
+.guarantee-text h2{font-size:clamp(26px,3.4vw,36px);font-weight:700;margin-bottom:14px;}
+.guarantee-text p{font-size:16px;opacity:0.92;max-width:560px;line-height:1.7;}
+ 
+@media(max-width:800px){
+  .guarantee-inner{flex-direction:column;text-align:center;}
+}
+ 
+/* ===== Compra segura ===== */
+.secure-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
+}
+.secure-item{
+  text-align:center;
+  padding:32px 20px;
+  border-radius:var(--radius-md);
+  border:1px solid var(--border);
+  transition:transform 0.4s var(--ease), background 0.4s;
+}
+.secure-item:hover{transform:translateY(-6px);background:var(--section-bg);}
+.secure-item .icon-circle{
+  width:54px;height:54px;
+  border-radius:50%;
+  background:var(--section-bg);
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 16px;
+}
+.secure-item svg{width:24px;height:24px;color:var(--primary);}
+.secure-item h4{font-size:14.5px;font-weight:700;margin-bottom:6px;}
+.secure-item p{font-size:13px;color:var(--text-secondary);}
+@media(max-width:900px){.secure-grid{grid-template-columns:repeat(2,1fr);}}
+</style>
+ 
+<!-- ============ OPINIONES ============ -->
+<section class="section-pad reviews-section" id="opiniones">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Testimonios</p>
+      <h2>Lo que dicen quienes ya lo probaron</h2>
+      <p>Miles de historias reales, una piel más suave cada semana.</p>
+    </div>
+    <div class="reviews-grid stagger">
+      <div class="review-card reveal" style="--i:0">
+        <div class="review-stars">★★★★★</div>
+        <p class="quote">Después de la sexta semana empecé a notar que el vello tardaba mucho más en salir. El nivel 3 fue perfecto para mi piel sensible.</p>
+        <div class="review-author">
+          <img src="https://placehold.co/100x100/FFF5F8/FF4F87?text=MC" alt="Foto de perfil de Mariana C.">
+          <div><strong>Mariana C.</strong><span>Montevideo, Uruguay</span></div>
+        </div>
+      </div>
+      <div class="review-card reveal" style="--i:1">
+        <div class="review-stars">★★★★★</div>
+        <p class="quote">Lo que más me gustó fue que no duele nada. Lo uso en piernas y axilas, la piel se siente distinta ya desde el primer mes.</p>
+        <div class="review-author">
+          <img src="https://placehold.co/100x100/FFF5F8/FF4F87?text=SL" alt="Foto de perfil de Sofía L.">
+          <div><strong>Sofía L.</strong><span>Buenos Aires, Argentina</span></div>
+        </div>
+      </div>
+      <div class="review-card reveal" style="--i:2">
+        <div class="review-stars">★★★★★</div>
+        <p class="quote">El cable largo se agradece muchísimo, y el sensor de contacto me da tranquilidad de que no voy a disparar por error.</p>
+        <div class="review-author">
+          <img src="https://placehold.co/100x100/FFF5F8/FF4F87?text=CV" alt="Foto de perfil de Camila V.">
+          <div><strong>Camila V.</strong><span>Santiago, Chile</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ FAQ ============ -->
+<section class="section-pad" id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Preguntas frecuentes</p>
+      <h2>Resolvemos tus dudas</h2>
+      <p>Si no encuentras tu respuesta aquí, nuestro equipo de soporte está para ayudarte.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          ¿Es doloroso el tratamiento con Lumina IPL?
+          <span class="plus" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">No. La mayoría de las usuarias describe la sensación como un ligero calor momentáneo. Los 5 niveles de intensidad permiten ajustar la potencia según tu tolerancia y tipo de piel.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          ¿Cada cuánto debo usar el dispositivo?
+          <span class="plus" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">Durante las primeras 6 semanas se recomienda una sesión cada dos semanas. Luego de ese período, una sesión de mantenimiento cada cuatro semanas ayuda a conservar los resultados.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          ¿Puedo usarlo en cualquier país?
+          <span class="plus" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">Sí. Lumina IPL cuenta con voltaje universal de 100 a 240V, por lo que es compatible con la red eléctrica de prácticamente cualquier país del mundo.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          ¿Qué pasa si el cabezal no toca la piel?
+          <span class="plus" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">El dispositivo solo emite el flash cuando el sensor detecta contacto continuo con la piel, como medida de seguridad para evitar disparos accidentales.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          ¿Sirve para todos los tonos de piel?
+          <span class="plus" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">Los 5 niveles de intensidad ajustables permiten adaptar el tratamiento a distintos tonos de piel. Ante dudas específicas, te recomendamos comenzar siempre por el nivel más bajo.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question" aria-expanded="false">
+          ¿Cuánto dura la garantía?
+          <span class="plus" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">Contás con 30 días de garantía desde la recepción del producto para solicitar una devolución si no estás satisfecha.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ GARANTÍA ============ -->
+<section class="section-pad guarantee-section" id="garantia">
+  <div class="blob" style="width:300px;height:300px;background:rgba(255,255,255,0.2);top:-80px;right:-80px;" aria-hidden="true"></div>
+  <div class="container guarantee-inner reveal-zoom">
+    <div class="guarantee-badge">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+    </div>
+    <div class="guarantee-text">
+      <h2>30 días de garantía, sin preguntas</h2>
+      <p>Probá Lumina IPL con total tranquilidad. Si dentro de los primeros 30 días sentís que no es para vos, te devolvemos tu dinero sin complicaciones.</p>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ COMPRA SEGURA ============ -->
+<section class="section-pad" id="compra-segura">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Tu tranquilidad primero</p>
+      <h2>Comprar es simple y seguro</h2>
+      <p>Protegemos cada paso de tu compra, del carrito a la puerta de tu casa.</p>
+    </div>
+    <div class="secure-grid stagger">
+      <div class="secure-item reveal-zoom" style="--i:0">
+        <div class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div>
+        <h4>Pago encriptado</h4>
+        <p>Tus datos viajan protegidos con cifrado SSL de extremo a extremo.</p>
+      </div>
+      <div class="secure-item reveal-zoom" style="--i:1">
+        <div class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="7" width="15" height="12" rx="2"/><path d="M16 10h3l3 4v5h-6"/><circle cx="6" cy="19" r="2"/><circle cx="17.5" cy="19" r="2"/></svg></div>
+        <h4>Envío rastreado</h4>
+        <p>Seguimiento en tiempo real desde que sale el paquete hasta tu puerta.</p>
+      </div>
+      <div class="secure-item reveal-zoom" style="--i:2">
+        <div class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg></div>
+        <h4>Garantía 30 días</h4>
+        <p>Devolución simple si el producto no cumple tus expectativas.</p>
+      </div>
+      <div class="secure-item reveal-zoom" style="--i:3">
+        <div class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+        <h4>Soporte real</h4>
+        <p>Equipo de atención disponible para acompañarte antes y después de tu compra.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<style>
+/* ===== CTA Final ===== */
+.final-cta{
+  position:relative;
+  background:linear-gradient(160deg,#1a1015 0%, #2a1420 100%);
+  border-radius:var(--radius-lg);
+  margin:0 32px;
+  padding:90px 40px;
+  text-align:center;
+  overflow:hidden;
+  color:#fff;
+}
+.final-cta .blob{
+  width:420px;height:420px;
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  opacity:0.35;
+}
+.final-cta .blob.fc1{top:-140px;left:-100px;}
+.final-cta .blob.fc2{bottom:-160px;right:-100px;}
+.final-cta-inner{position:relative;z-index:1;max-width:640px;margin:0 auto;}
+.final-cta h2{font-size:clamp(30px,4.5vw,46px);font-weight:800;letter-spacing:-0.02em;margin-bottom:18px;}
+.final-cta p{color:rgba(255,255,255,0.75);font-size:16.5px;margin-bottom:36px;}
+.final-cta .btn-primary{padding:21px 48px;font-size:16.5px;}
+.final-cta-trust{
+  margin-top:28px;
+  display:flex;
+  justify-content:center;
+  gap:24px;
+  flex-wrap:wrap;
+  font-size:13px;
+  color:rgba(255,255,255,0.65);
+}
+@media(max-width:700px){.final-cta{margin:0 16px;padding:70px 24px;}}
+ 
+/* ===== Footer ===== */
+footer{
+  background:#160C10;
+  color:rgba(255,255,255,0.7);
+  padding:80px 0 30px;
+  margin-top:0;
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns:1.4fr 1fr 1fr 1fr;
+  gap:40px;
+  padding-bottom:56px;
+  border-bottom:1px solid rgba(255,255,255,0.08);
+}
+.footer-brand .logo{color:#fff;margin-bottom:16px;}
+.footer-brand p{font-size:14px;line-height:1.7;max-width:280px;color:rgba(255,255,255,0.55);}
+.footer-social{display:flex;gap:12px;margin-top:22px;}
+.footer-social a{
+  width:38px;height:38px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.07);
+  display:flex;align-items:center;justify-content:center;
+  transition:background 0.3s, transform 0.3s;
+}
+.footer-social a:hover{background:var(--primary);transform:translateY(-3px);}
+.footer-social svg{width:16px;height:16px;color:#fff;}
+.footer-col h5{color:#fff;font-size:14.5px;font-weight:600;margin-bottom:20px;letter-spacing:0.02em;}
+.footer-col ul{display:flex;flex-direction:column;gap:12px;}
+.footer-col a{font-size:14px;transition:color 0.3s;}
+.footer-col a:hover{color:var(--secondary);}
+.footer-bottom{
+  padding-top:28px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:16px;
+  font-size:12.5px;
+  color:rgba(255,255,255,0.45);
+}
+.footer-bottom .legal-links{display:flex;gap:20px;}
+ 
+@media(max-width:900px){
+  .footer-grid{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:560px){
+  .footer-grid{grid-template-columns:1fr;}
+  .footer-bottom{flex-direction:column;text-align:center;}
+}
+ 
+/* ===== Back to top ===== */
+.back-to-top{
+  position:fixed;
+  bottom:28px;right:28px;
+  width:52px;height:52px;
+  border-radius:50%;
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:var(--shadow-soft);
+  opacity:0;
+  pointer-events:none;
+  transform:translateY(16px);
+  transition:opacity 0.4s, transform 0.4s;
+  z-index:900;
+}
+.back-to-top.visible{opacity:1;pointer-events:auto;transform:translateY(0);}
+.back-to-top svg{width:20px;height:20px;color:#fff;}
+.back-to-top:hover{transform:translateY(-4px) scale(1.06);}
+</style>
+ 
+<!-- ============ CTA FINAL ============ -->
+<section class="section-pad" id="comprar">
+  <div class="final-cta reveal-zoom">
+    <div class="blob fc1" aria-hidden="true"></div>
+    <div class="blob fc2" aria-hidden="true"></div>
+    <div class="final-cta-inner">
+      <h2>Tu piel más suave empieza hoy</h2>
+      <p>Súmate a miles de personas que ya transformaron su rutina de cuidado personal con Lumina IPL.</p>
+      <a href="#" class="btn btn-primary">Comprar Lumina IPL ahora</a>
+      <div class="final-cta-trust">
+        <span>★★★★★ 4.9/5 valoración</span>
+        <span>Garantía 30 días</span>
+        <span>Envío asegurado</span>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">Lumina<span>IPL</span></a>
+        <p>Tecnología de depilación IPL diseñada para acompañar tu rutina de belleza con resultados de nivel profesional, desde la comodidad de tu hogar.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Producto</h5>
+        <ul>
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#tecnologia">Tecnología IPL</a></li>
+          <li><a href="#especificaciones">Especificaciones</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Ayuda</h5>
+        <ul>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+          <li><a href="#garantia">Garantía</a></li>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Empresa</h5>
+        <ul>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#opiniones">Opiniones</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Política de privacidad</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Lumina IPL. Todos los derechos reservados.</span>
+      <div class="legal-links">
+        <a href="#">Privacidad</a>
+        <a href="#">Términos</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+<button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+ 
+<script>
+(function(){
+  'use strict';
+ 
+  /* ===== Header scroll state ===== */
+  var header = document.getElementById('siteHeader');
+  var backToTop = document.getElementById('backToTop');
+  function onScroll(){
+    if(window.scrollY > 40){
+      header.classList.add('scrolled');
+    }else{
+      header.classList.remove('scrolled');
+    }
+    if(window.scrollY > 600){
+      backToTop.classList.add('visible');
+    }else{
+      backToTop.classList.remove('visible');
+    }
+  }
+  document.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+ 
+  backToTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+ 
+  /* ===== Mobile nav toggle ===== */
+  var navToggle = document.getElementById('navToggle');
+  var navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', function(){
+    var isOpen = navLinks.classList.toggle('open');
+    navToggle.classList.toggle('open', isOpen);
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+  navLinks.querySelectorAll('a').forEach(function(link){
+    link.addEventListener('click', function(){
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    });
+  });
+ 
+  /* ===== Scroll reveal via IntersectionObserver ===== */
+  var revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-zoom, .reveal-scale');
+  var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+ 
+  if(prefersReduced){
+    revealEls.forEach(function(el){ el.classList.add('is-visible'); });
+  }else{
+    var revealObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+ 
+    revealEls.forEach(function(el){ revealObserver.observe(el); });
+  }
+ 
+  /* ===== Results timeline row-by-row reveal (progress bars) ===== */
+  var resultRows = document.querySelectorAll('.result-row');
+  if(prefersReduced){
+    resultRows.forEach(function(el){ el.classList.add('is-visible'); });
+  }else{
+    var resultObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('is-visible');
+          resultObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.4 });
+    resultRows.forEach(function(el){ resultObserver.observe(el); });
+  }
+ 
+  /* ===== FAQ Accordion ===== */
+  var faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(function(item){
+    var question = item.querySelector('.faq-question');
+    var answer = item.querySelector('.faq-answer');
+    question.addEventListener('click', function(){
+      var isOpen = item.classList.contains('open');
+ 
+      // Close all other items (single-open accordion)
+      faqItems.forEach(function(other){
+        if(other !== item){
+          other.classList.remove('open');
+          other.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+          other.querySelector('.faq-answer').style.maxHeight = null;
+        }
+      });
+ 
+      if(isOpen){
+        item.classList.remove('open');
+        question.setAttribute('aria-expanded', 'false');
+        answer.style.maxHeight = null;
+      }else{
+        item.classList.add('open');
+        question.setAttribute('aria-expanded', 'true');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+      }
+    });
+  });
+ 
+  /* ===== Smooth anchor scrolling offset for fixed header ===== */
+  document.querySelectorAll('a[href^="#"]').forEach(function(anchor){
+    anchor.addEventListener('click', function(e){
+      var targetId = this.getAttribute('href');
+      if(targetId.length > 1){
+        var targetEl = document.querySelector(targetId);
+        if(targetEl){
+          e.preventDefault();
+          var offset = 90;
+          var top = targetEl.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({top: top, behavior: prefersReduced ? 'auto' : 'smooth'});
+        }
+      }
+    });
+  });
+ 
+})();
+</script>
+</body>
+</html>
+ 
